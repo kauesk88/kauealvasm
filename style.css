@@ -1,6 +1,188 @@
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Estilizando o menu*/
 .link-menu{
-    color: #a600ff;
+    color: #a600ff !important;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 21px;
 }
+.link-menu:hover{
+    color: #000000 !important;
+}
+/*estilizando rodape*/
+.rodape{
+    position: relative;
+    bottom: 0;
+    background-color: #a600ff;
+    width: 100%;
+    padding: 2%;
+    color: white;
+    font-size: 20px;
+}
+.rodape footer{
+    text-align: center;
+}
+/*Estilizando a pagina do blog*/
+.card-deck{
+    margin: 5% 0 0 20%;
+    width: 60% !important;
+}
+
+.card{
+    color: #000000;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.btn-blog{
+    margin: 1% 2% 10% 2%;
+    width: 96% !important;
+    color: #000000
+}
+
+/*estilizando page sobre*/
+.sobre{
+    display: flex;
+    width: 60%;
+    margin: 5% 0 0 20%;
+}
+.sobreimg{
+    width: 20%;
+}
+.fotominha{
+    width: 100%;
+}
+.sobretexto{
+    width: 100%;
+    margin-top: -2%;
+}
+
+/*estilizando alva school*/
+.titulo h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2.5%;
+}
+/*estilizando inicio*/
+.videoinicial{
+    width: 60%;
+    margin: 0 0 0 20%
+}
+.videoinicial iframe{
+    width: 100%;
+    height: 500px;
+}
+.conteudohome{
+    width: 60%;
+    margin: 2% 0 0 20%;
+
+}
+.conteudohome h1{
+    font-size: 30px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 3% 0 0 33%;
+}
+.card-deck p{
+    text-align: center;
+}
+.uo{
+    margin-bottom: 5%;
+}
+/*estilizando contato*/
+.formulario{
+    width: 60%;
+    margin: 5% 0 0 20%;
+}
+
+/*estilizando materia blog*/
+.imgmateria{
+    width: 60%;
+    height: 500px;
+    margin: 5% 0 0 20%;
+}
+.materia{
+    width: 60%;
+    margin: 5% 0 0 20%;
+}
+.materia h1{
+    font-size: 30px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 767px){
+
+/*Estilizando a pagina do blog*/
+.card-deck{
+    margin: 5% 0 0 10%;
+    width: 80% !important;
+}
+
+.card{
+    color: #000000;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.btn-blog{
+    margin: 1% 2% 10% 2%;
+    width: 96% !important;
+    color: #000000
+}    
+
+/*estilizando page sobre*/
+.sobre{
+    display: inline-block;
+    
+    width: 80%;
+    margin: 5% 0 0 10%;
+}
+.sobreimg{
+    width: 100%;
+}
+.fotominha{
+    width: 100%;
+}
+.sobretexto{
+    margin-top: 5%;
+    width: 100%;
+}
+
+/*estilizando inicio*/
+.videoinicial{
+    width: 80%;
+    margin: 0 0 0 10%
+}
+.videoinicial iframe{
+    width: 100%;
+    height: 300px;
+}
+.conteudohome{
+    width: 80%;
+    margin: 2% 0 0 10%;
+
+}
+/*estilizando contato*/
+.formulario{
+    width: 80%;
+    margin: 5% 0 0 10%;
+}
+/*estilizando materia blog*/
+.imgmateria{
+    width: 80%;
+    height: 200px;
+    margin: 5% 0 0 10%;
+}
+.materia{
+    width: 80%;
+    margin: 5% 0 0 10%;
+}
+.materia h1{
+    font-size: 30px;
+}
+}
+
